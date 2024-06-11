@@ -1,6 +1,8 @@
 # CRFNet-RS
 Fully Convolutional Network to Learn the Potentials of a CRF for the Semantic Segmentation of Remote Sensing Images
 
+![alt text]([http://url/to/img.png](https://github.com/Ayana-Inria/CRFNet-RS/blob/main/arch.PNG))
+
 This repository contains the code related to the paper:  
 
 M. Pastorino, G. Moser, S. B. Serpico, and J. Zerubia, "Learning CRF potentials through fully convolutional networks for satellite image semantic segmentation," IEEE SITIS 2023 - 17th International Conference on Signal-Image Technology &Internet-Based Systems, 2023, [https://inria.hal.science/hal-04255319](https://inria.hal.science/hal-04255319), [https://ieeexplore.ieee.org/document/10472864](https://ieeexplore.ieee.org/document/10472864).
