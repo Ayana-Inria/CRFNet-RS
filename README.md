@@ -1,7 +1,7 @@
 # CRFNet-RS
 Fully Convolutional Network to Learn the Potentials of a CRF for the Semantic Segmentation of Remote Sensing Images
 
-![alt text]([http://url/to/img.png](https://github.com/Ayana-Inria/CRFNet-RS/blob/main/arch.PNG))
+![screenshot](arch.PNG)
 
 This repository contains the code related to the paper:  
 
