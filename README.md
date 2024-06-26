@@ -39,7 +39,7 @@ The code was built on a virtual environment running on Python 3.9
 git clone --recursive https://github.com/Ayana-Inria/CRFNet-RS.git
 ```
 
-### Step 2: Clone the repository
+### Step 2: Install the dependencies
 
 ```
 cd CRFNet-RS
