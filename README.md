@@ -33,13 +33,13 @@ M. Pastorino, G. Moser, S. B. Serpico, and J. Zerubia, "Learning CRF potentials 
 
 The code was built on a virtual environment running on Python 3.9
 
-### Step 1: Clone the repository
+### Step :one:: Clone the repository
 
 ```
 git clone --recursive https://github.com/Ayana-Inria/CRFNet-RS.git
 ```
 
-### Step 2: Install the dependencies
+### Step :two:: Install the dependencies
 
 ```
 cd CRFNet-RS
@@ -47,7 +47,7 @@ cd CRFNet-RS
 pip install -r requirements.txt
 ```
 
-### Step 3: Run the code
+### Step :three:: Run the code
 
 1. Train the model on a scarce GT set 
 
