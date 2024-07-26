@@ -74,12 +74,18 @@ class DoubleConv(nn.Module):
     def forward(self, x):
         return self.double_conv(x)
     
+
 class NeighConv(nn.Module):
     def __init__(self, in_channels, out_channels):
         super().__init__()
         self.neigh_conv = nn.Conv2d(in_channels, out_channels, kernel_size=3, padding=2)
     
     def forward(self, x):
+        with torch.no_grad():
+            # self.neigh_conv.weight[:, :, 0, 0] = 0    # uncomment for + neighborhood 
+            # self.neigh_conv.weight[:, :, 2, 0] = 0
+            # self.neigh_conv.weight[:, :, 0, 2] = 0
+            # self.neigh_conv.weight[:, :, 2, 2] = 0
         return self.neigh_conv(x)
 
 class OutConv(nn.Module):
