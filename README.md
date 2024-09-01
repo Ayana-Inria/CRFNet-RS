@@ -88,7 +88,7 @@ input
     └── top_mosaic_09cm_area{}_noBoundary.tif
 ```
 
-### :pencil: :straight_ruler: Reproduce the training data
+### :pencil2: :straight_ruler: Reproduce the training data
 
 To obtain the scarce ground truth, use the function `conn_comp(gt, kernel)` provided in `utils/utils_dataset.py` to be applied on the original fully labeled ground truth until the remaining label information is 30\% or 10 \%.
 
@@ -102,7 +102,6 @@ The model was trained with the following hyperparameters:
 WINDOW_SIZE = (256, 256) # Patch size
 STRIDE = 32 # Stride for testing
 BATCH_SIZE = 10 # Number of samples in a mini-batch
-kernel = disk(8)
 base_lr = 0.01
 weight_decay=0.0005
 epochs = 30
