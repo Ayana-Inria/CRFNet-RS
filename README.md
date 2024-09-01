@@ -5,29 +5,26 @@ Fully Convolutional Network to Learn the Potentials of a CRF for the Semantic Se
 
 This repository contains the code related to the paper:  
 
-M. Pastorino, G. Moser, S. B. Serpico, and J. Zerubia, "Learning CRF potentials through fully convolutional networks for satellite image semantic segmentation," IEEE SITIS 2023 - 17th International Conference on Signal-Image Technology &Internet-Based Systems, 2023, [https://inria.hal.science/hal-04255319](https://inria.hal.science/hal-04255319), [https://ieeexplore.ieee.org/document/10472864](https://ieeexplore.ieee.org/document/10472864).
-
-and the TGRS paper:
-
-M. Pastorino, G. Moser, S. B. Serpico, and J. Zerubia, "Fully Convolutional Network to Learn the Potentials of a CRF for the Semantic Segmentation of Remote Sensing Images," IEEE Transactions on Geoscience and Remote Sensing, 2024, submitted.
+M. Pastorino, G. Moser, S. B. Serpico, and J. Zerubia, CRFNet: A Deep Convolutional Network to Learn the Potentials of a CRF for the Semantic Segmentation of Remote Sensing Images," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2024.3452631. [https://inria.hal.science/hal-04683326](https://inria.hal.science/hal-04683326), [https://ieeexplore.ieee.org/document/10659885](https://ieeexplore.ieee.org/document/10659885).
 
 
-When using this work, please cite our IEEE SITIS'23 conference paper:
+When using this work, please cite our IEEE TGRS paper:
 
-M. Pastorino, G. Moser, S. B. Serpico, and J. Zerubia, "Learning CRF potentials through fully convolutional networks for satellite image semantic segmentation," IEEE SITIS 2023 - 17th International Conference on Signal-Image Technology &Internet-Based Systems, Bangkok, Thailand, 2023. 
+M. Pastorino, G. Moser, S. B. Serpico, and J. Zerubia, CRFNet: A Deep Convolutional Network to Learn the Potentials of a CRF for the Semantic Segmentation of Remote Sensing Images," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2024.3452631. 
 
 ```
-@INPROCEEDINGS{10472864,
+@ARTICLE{10659885,
   author={Pastorino, Martina and Moser, Gabriele and Serpico, Sebastiano B. and Zerubia, Josiane},
-  booktitle={2023 17th International Conference on Signal-Image Technology & Internet-Based Systems (SITIS)}, 
-  title={Learning CRF potentials through fully convolutional networks for satellite image semantic segmentation}, 
-  year={2023},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={CRFNet: A Deep Convolutional Network to Learn the Potentials of a CRF for the Semantic Segmentation of Remote Sensing Images}, 
+  year={2024},
   volume={},
   number={},
-  pages={93-98},
-  doi={10.1109/SITIS61268.2023.00023}}
+  pages={1-19},
+  doi={10.1109/TGRS.2024.3452631}}
 
 ```
+
 
 ## :gear: Installation
 
