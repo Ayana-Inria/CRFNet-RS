@@ -78,7 +78,7 @@ class DoubleConv(nn.Module):
 class NeighConv(nn.Module):
     def __init__(self, in_channels, out_channels):
         super().__init__()
-        self.neigh_conv = nn.Conv2d(in_channels, out_channels, kernel_size=3, padding=2)
+        self.neigh_conv = nn.Conv2d(in_channels, out_channels, kernel_size=3, padding=2) # this can be substituted by a depthwise convolution
     
     def forward(self, x):
         with torch.no_grad():
