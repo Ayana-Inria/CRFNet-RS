@@ -106,7 +106,7 @@ Potsdam: '3_12', '4_10', '4_12', '5_11', '6_12'
 
 ### :receipt: Reproduce the evaluation results
 
-You can download the weights of CRFNet for each dataset and ground truth condition, that produced the results published in the paper, from [Google Drive link](https://drive.google.com/drive/folders/1lUQ64GvajoYiQ8mrNQ2MUOpYD8sTdHhq?usp=sharing)
+You can download the weights of CRFNet for each dataset `(Vaihingen and Potsdam)`, ground truth condition `(full GT, 30% GT, 10% GT)`, and two different neighborhoods `(first order or second order)`, that produced the results published in the paper, from [Google Drive link](https://drive.google.com/drive/folders/1lUQ64GvajoYiQ8mrNQ2MUOpYD8sTdHhq?usp=sharing)
 
 The model was trained with the following hyperparameters:
 
