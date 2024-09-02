@@ -92,6 +92,18 @@ input
 
 To obtain the scarce ground truth, use the function `conn_comp(gt, kernel)` provided in `utils/utils_dataset.py` to be applied on the original fully labeled ground truth until the remaining label information is 30\% or 10\%.
 
+Training tiles:
+```
+Vaihingen: '1', '3', '23', '26', '7', '11', '13', '28', '17', '32', '34', '37'
+Potsdam: '3_11', '4_11', '5_10', '6_7', '6_8', '6_9', '7_7', '7_8', '7_9', '7_10'
+```
+
+Test tiles:
+```
+Vaihingen: '5', '15', '21', '30'
+Potsdam: '3_12', '4_10', '4_12', '5_11', '6_12'
+```
+
 ### :receipt: Reproduce the evaluation results
 
 You can download the weights of CRFNet for each dataset and ground truth condition, that produced the results published in the paper, from [Google Drive link](https://drive.google.com/drive/folders/1lUQ64GvajoYiQ8mrNQ2MUOpYD8sTdHhq?usp=sharing)
