@@ -90,7 +90,7 @@ input
 
 ### :pencil2: :straight_ruler: Reproduce the training data
 
-To obtain the scarce ground truth, use the function `conn_comp(gt, kernel)` provided in `utils/utils_dataset.py` to be applied on the original fully labeled ground truth until the remaining label information is 30\% or 10 \%.
+To obtain the scarce ground truth, use the function `conn_comp(gt, kernel)` provided in `utils/utils_dataset.py` to be applied on the original fully labeled ground truth until the remaining label information is 30\% or 10\%.
 
 ### :receipt: Reproduce the evaluation results
 
